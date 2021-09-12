@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white2"
+    tools:context=".LandingPage">
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="211.8dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginStart="24dp"
+        android:contentDescription="@string/app_lp_text27"
+        android:background="@drawable/ic_lp_combined_shape">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="329dp"
+        android:layout_marginTop="7dp"
+        android:paddingStart="70dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_lp_text27"
+        android:focusable="false"
+        android:src="@drawable/ic_lp_group" />
+
+    <TextView
+        android:layout_width="289dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="33dp"
+        android:text="@string/app_lp_text1"
+        android:textSize="16sp"
+        android:lineHeight="24dp"
+        android:letterSpacing="-0.06"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/barlow_extra_light"
+        tools:targetApi="p" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="123dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="7dp"
+        android:orientation="horizontal"
+        android:id="@+id/ll_register"
+        android:background="@drawable/lp_background_register_button">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:contentDescription="@string/app_lp_text27"
+            android:src="@drawable/ic_lp_arrow" />
+
+        <TextView
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="7dp"
+            android:textSize="28sp"
+            android:lineHeight="28dp"
+            android:letterSpacing="-0.05"
+            android:textColor="@color/white2"
+            android:textAlignment="center"
+            android:includeFontPadding="false"
+            android:fontFamily="@font/barlow_condensed_extra_light"
+            android:text="@string/app_lp_text2"
+            tools:targetApi="p" />
+    </LinearLayout>
+
+
+        <TextView
+            android:layout_width="161dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="7dp"
+            android:textSize="28sp"
+            android:layout_marginStart="4.5dp"
+            android:letterSpacing="-0.04"
+            android:textColor="@color/black2"
+            android:textAlignment="center"
+            android:fontFamily="@font/barlow_condensed_extra_light"
+            android:text="@string/app_lp_text3" />
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="11dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="46dp"
+        android:contentDescription="@string/app_lp_text27"
+        android:src="@drawable/ic_lp_blue_arrow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginTop="33dp"
+        android:lineHeight="28dp"
+        android:textSize="24sp"
+        android:layout_marginStart="11dp"
+        android:textColor="@color/cornflowerBlue"
+        android:fontFamily="@font/barlow_condensed_extra_light"
+        android:text="@string/app_lp_text4"
+        tools:targetApi="p" />
+</LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"
+        android:layout_marginTop="68.4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="68dp"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="33dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_facebook"
+            android:contentDescription="@string/app_lp_text27"
+            android:layout_height="32dp" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_instagram"
+            android:contentDescription="@string/app_lp_text27"
+            android:layout_height="32dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="33dp"
+        android:layout_height="1dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60.3dp"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/ic_lp_bottom_image"
+        android:contentDescription="@string/app_lp_text27"
+        android:layout_height="28dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:lineHeight="39dp"
+            android:id="@+id/tb1"
+            android:text="@string/app_lp_text20"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/barlow_condensed_medium"
+            android:layout_height="wrap_content"
+            tools:targetApi="p" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:lineHeight="39dp"
+            android:id="@+id/tb2"
+            android:layout_below="@id/tb1"
+            android:text="@string/app_lp_text21"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/barlow_condensed_medium"
+            android:layout_height="wrap_content"
+            tools:targetApi="p" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:lineHeight="39dp"
+            android:id="@+id/tb3"
+            android:layout_below="@id/tb2"
+            android:text="@string/app_lp_text22"
+            android:textColor="@color/black"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/barlow_condensed_medium"
+            android:layout_height="wrap_content"
+            tools:targetApi="p" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:lineHeight="39dp"
+            android:id="@+id/tb4"
+            android:text="@string/app_lp_text23"
+            android:textColor="@color/black"
+            android:layout_marginStart="209dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/barlow_condensed_medium"
+            android:layout_height="wrap_content"
+            tools:targetApi="p" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:lineHeight="39dp"
+            android:id="@+id/tb5"
+            android:layout_below="@id/tb4"
+            android:text="@string/app_lp_text24"
+            android:textColor="@color/black"
+            android:layout_marginStart="209dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/barlow_condensed_medium"
+            android:layout_height="wrap_content"
+            tools:targetApi="p" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:lineHeight="39dp"
+            android:id="@+id/tb6"
+            android:layout_below="@id/tb5"
+            android:text="@string/app_lp_text25"
+            android:textColor="@color/black"
+            android:layout_marginStart="209dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/barlow_condensed_medium"
+            android:layout_height="wrap_content"
+            tools:targetApi="p" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="33dp"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="24dp"
+            android:src="@drawable/ic_lp_copyright_image"
+            android:layout_marginStart="97dp"
+            android:layout_marginTop="15.6dp"
+            android:contentDescription="@string/app_lp_text27"
+            android:layout_height="25dp">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:lineHeight="24dp"
+            android:textColor="@color/black"
+            android:text="@string/app_lp_text26"
+            android:layout_marginTop="15.6dp"
+            android:layout_marginStart="5.6dp"
+            android:layout_marginBottom="49dp"
+            android:fontFamily="@font/barlow_condensed_light"
+            android:layout_height="wrap_content"
+            tools:targetApi="p" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>
